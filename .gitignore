@@ -5,3 +5,5 @@
 .vs
 obj
 bin
+/Ats.DatabaseSchema/Ats.DatabaseSchema.dbmdl
+/Ats.DatabaseSchema/Ats.DatabaseSchema.jfm
