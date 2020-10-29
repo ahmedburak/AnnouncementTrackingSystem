@@ -1,0 +1,6 @@
+﻿
+
+
+
+
+Scaffold-DbContext "Server=.\;Database=Ats;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
