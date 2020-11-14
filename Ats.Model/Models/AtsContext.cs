@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace Ats.Data.Models
+namespace Ats.Model.Models
 {
     public partial class AtsContext : DbContext
     {

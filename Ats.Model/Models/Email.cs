@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 #nullable disable
 
-namespace Ats.Data.Models
+namespace Ats.Model.Models
 {
     public partial class Email
     {
