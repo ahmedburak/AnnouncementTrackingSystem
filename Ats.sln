@@ -9,6 +9,10 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Ats.DatabaseSchema", "Ats.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ats.Model", "Ats.Model\Ats.Model.csproj", "{4FB2F2C5-CF42-4424-90A9-45D92CA6F8B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ats.Service", "Ats.Service\Ats.Service.csproj", "{CDCC0A8A-353C-4AEB-ACD1-D390F2EAA3AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ats.Program", "Ats.Program\Ats.Program.csproj", "{01F31106-01FF-4D68-A466-2F2533DD4739}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,14 @@ Global
 		{4FB2F2C5-CF42-4424-90A9-45D92CA6F8B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FB2F2C5-CF42-4424-90A9-45D92CA6F8B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FB2F2C5-CF42-4424-90A9-45D92CA6F8B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDCC0A8A-353C-4AEB-ACD1-D390F2EAA3AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDCC0A8A-353C-4AEB-ACD1-D390F2EAA3AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDCC0A8A-353C-4AEB-ACD1-D390F2EAA3AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDCC0A8A-353C-4AEB-ACD1-D390F2EAA3AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F31106-01FF-4D68-A466-2F2533DD4739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F31106-01FF-4D68-A466-2F2533DD4739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F31106-01FF-4D68-A466-2F2533DD4739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F31106-01FF-4D68-A466-2F2533DD4739}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
