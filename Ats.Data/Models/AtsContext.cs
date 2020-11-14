@@ -1,5 +1,4 @@
-﻿
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 #nullable disable
 
@@ -104,7 +103,7 @@ namespace Ats.Data.Models
 
             modelBuilder.Entity<ExceptionLog>(entity =>
             {
-                entity.HasNoKey();
+                entity.HasKey(e => e.PkId);
 
                 entity.Property(e => e.ExceptionDateTime).HasColumnType("datetime");
 
