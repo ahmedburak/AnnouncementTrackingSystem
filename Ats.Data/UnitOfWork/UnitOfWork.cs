@@ -13,6 +13,12 @@ namespace Ats.Data.UnitOfWork
         private IDbContextTransaction transaction;
         private readonly AtsContext db;
 
+        // Constructor
+        public UnitOfWork()
+        {
+            db = new AtsContext();
+        }
+
 
         // Entities
         public Repository<Announcement> Announcements => new Repository<Announcement>(db);

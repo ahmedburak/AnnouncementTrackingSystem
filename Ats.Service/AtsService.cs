@@ -2,8 +2,8 @@
 using Ats.Model.Models;
 
 using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Remote;
+using OpenQA.Selenium.PhantomJS;
 
 using System;
 using System.Collections.Generic;
@@ -17,7 +17,7 @@ namespace Ats.Service
 {
     public class AtsService : IDisposable
     {
-        ChromeDriver driver;
+        PhantomJSDriver driver;
         bool isDisposed;
 
         public void Dispose()
@@ -29,7 +29,7 @@ namespace Ats.Service
         public AtsService()
         {
             LogHelper.WriteLine("Phantom Başlatılıyor!");
-            driver = new ChromeDriver();
+            driver = new PhantomJSDriver();
             driver.Manage().Window.Size = new Size(1600, 900);
             LogHelper.WriteLine("Phantom Başlatıldı!");
         }
